@@ -298,7 +298,7 @@ the file and the input.
 
 **FUNCTION SPECIFICATION**
 
-_function_ **NAME**: `filter_db_csv`
+_function_ **NAME**: `filter_db_str`
 
 _function_ **INPUT**: 
 
@@ -320,7 +320,7 @@ _function_ **OUTPUT**:
 _Code Example_:
 
 ```python
-  filter_db_csv_str("foc_chocodb.csv", country="uganda") 
+  filter_db_str("foc_chocodb.csv", country="uganda") 
 ```
 
 _Example Output_:
@@ -344,8 +344,6 @@ but you will need to emit _all_ columns and data.
   * Cuba
   * Brazil
   * Belize
-
-
 
 2. Produce a new file with only those chocolates with `Rating` less than 2. Name the file
 `data/foc_chocodb_low_tier.csv`.
