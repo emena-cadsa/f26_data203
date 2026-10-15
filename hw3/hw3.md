@@ -355,7 +355,7 @@ Don't overthink it -- remember that you can use `write()`
 to write data to a file, given a string.
 
 
-**&#167; Task:**  **1.4 Use your function to filter on the same input but output the data list of dictionaries.** 
+**&#167; Task:**  **1.4 Use your function to filter on the same input but output the data as a list of dictionaries.** 
 
 You will do the same as before, but the return result
 will be a list of dictionaries.
